@@ -536,8 +536,8 @@ function scrollToSection(sectionId) {
 function downloadResume() {
     // Create a temporary link to download resume
     const link = document.createElement('a');
-    link.href = 'assets/Resume.pdf'; // Replace with actual resume path
-    link.download = 'Govind_Shukla_Resume.pdf';
+    link.href = 'assets/GovindShukla_Resume.pdf'; // Replace with actual resume path
+    link.download = 'GovindShukla_Resume.pdf';
     link.click();
     
     showNotification('Resume download started!', 'success');
